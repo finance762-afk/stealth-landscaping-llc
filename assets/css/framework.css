@@ -1028,10 +1028,11 @@ section { padding: var(--space-16) 0; }
 }
 .review-platform-badge:hover { background: rgba(255,255,255,0.1); }
 .platform-info { display: flex; flex-direction: column; gap: 2px; }
-.platform-name { font-family: var(--font-heading); font-weight: 700; font-size: var(--font-size-sm); color: var(--color-white); }
+.platform-name { font-family: var(--font-heading); font-weight: 700; font-size: var(--font-size-sm); color: #ffffff !important; }
 .platform-stars { display: flex; gap: 2px; }
-.platform-stars i { color: var(--color-star); width: 13px; height: 13px; }
-.platform-count { font-size: var(--font-size-xs); color: var(--color-white); }
+.platform-stars i,
+.platform-stars svg { color: var(--color-star) !important; width: 13px; height: 13px; }
+.platform-count { font-size: var(--font-size-xs); color: #ffffff !important; }
 
 /* Swiper review nav */
 .swiper-reviews .swiper-pagination-bullet { background: rgba(255,255,255,0.35); opacity: 1; }
