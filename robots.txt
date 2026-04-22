@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disallow: /includes/
+Disallow: /assets/js/
+Disallow: /thank-you
+Disallow: /thank-you.php
+
+Sitemap: https://stealthlandscapingllc.com/sitemap.xml
+Sitemap: https://stealthlandscapingllc.com/sitemap-images.xml

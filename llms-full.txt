@@ -1,0 +1,145 @@
+# Stealth Landscaping LLC — Full AI Reference File (llms-full.txt)
+
+## Business Identity
+- **Company:** Stealth Landscaping LLC
+- **Type:** Landscaping company (residential & light commercial)
+- **Location:** 22015 SE 295th Pl, Black Diamond, WA 98010
+- **Service Region:** King County and surrounding areas, Washington State
+- **Founded:** 2021 (4+ years in business)
+- **Licensed & Insured:** Yes — Washington State (verify current license at WA L&I)
+- **Tagline:** Transforming yards without a trace
+- **Pricing:** $$ (mid-range) — free estimates available
+
+## Contact Information
+- **Phone:** (see website for current number)
+- **Email:** (see website for current email)
+- **Website:** https://stealthlandscapingllc.com
+- **Hours:** Monday–Friday 7:00am–6:00pm | Saturday 8:00am–4:00pm | Sunday: Closed
+- **Response:** Same or next day for Black Diamond area
+
+## Service Areas
+- **Primary:** Black Diamond, WA 98010 — same/next day response
+- **King County:** Maple Valley (~10 min), Covington (~15 min), Auburn (~25 min), Kent (~20 min), Enumclaw (~20 min), Renton (~30 min)
+- **Pierce County:** Bonney Lake (~25 min)
+- **Radius:** Approximately 30 miles from Black Diamond, WA
+
+---
+
+## Services — Full Descriptions
+
+### Landscaping
+Professional landscape design and installation for residential and light commercial properties throughout King County. Every project starts with a site assessment — we evaluate soil composition (often heavy King County clay), drainage patterns, sun exposure, and existing vegetation before developing a plan. Projects range from targeted improvements like a new planting bed or front-yard refresh to full property transformations combining sod, hardscape, and plantings. Typical cost: $2,000–$25,000 depending on scope.
+
+### Turf Installation
+Natural sod and artificial turf installation for residential properties. Natural sod delivers an established lawn in 2–3 weeks; artificial turf provides year-round green with no watering or mowing. Both options are available — selection depends on your usage pattern, budget, and maintenance preference. We install proper base material and drainage under artificial turf to prevent waterlogging, a critical consideration in Washington's high-rainfall climate.
+
+### Hardscape Design
+Custom hardscape design and installation including patios, walkways, retaining walls, and stone features. All hardscape projects include proper base preparation — compacted gravel and sand beds appropriate for King County's freeze-thaw cycles. We work with concrete, pavers, natural stone, and block. Most patio projects: $3,000–$8,000. Retaining walls start around $2,500.
+
+### Sod Installation
+Professional sod installation for instant lawns. We source quality sod appropriate for Pacific Northwest conditions and install over properly prepared soil — graded, amended, and ready for root establishment. Most sod installations complete in a single day. Cost: $0.90–$1.50 per square foot installed, depending on site prep requirements.
+
+### Flower Bed Installation
+Custom flower bed design and installation with plantings selected for King County's climate, soil, and your property's sun/shade conditions. We install edging, soil amendments, and mulch as part of every bed installation. Seasonal color planning available for year-round visual interest.
+
+### Plant Installation
+Expert plant selection and installation for thriving gardens and landscapes. We source plants from quality nurseries and match selections to your site's specific conditions — sun exposure, drainage, soil pH, and maintenance level. Proper planting depth, soil amendments, and watering guidance are included.
+
+### Shrub Trimming
+Professional shrub trimming and pruning to maintain healthy, attractive plants. We follow species-appropriate pruning timing and technique to promote plant health, not just aesthetics. Available as a one-time service or recurring maintenance schedule.
+
+### Tree Planting
+Professional tree selection, placement planning, and installation. We assess your property's available space, sun exposure, soil drainage, and proximity to structures before recommending species. Proper planting depth and initial soil amendment are included. We do not offer ongoing tree maintenance or removal.
+
+### Mulch Installation
+Quality mulch installation for landscape beds — helps retain soil moisture, regulate temperature, and suppress weeds. We install 2–3 inch depth appropriate for Pacific Northwest conditions. Cedar and hemlock bark blends preferred for longevity and pest resistance.
+
+### Landscape Lighting
+Professional outdoor lighting design and installation using energy-efficient LED fixtures. Low-voltage systems for path lighting, uplighting, and accent applications. We handle layout, wiring, transformer installation, and timer/dusk-to-dawn configuration.
+
+### Patio Installation
+Custom patio construction using pavers, natural stone, or concrete. We handle all site prep — excavation, gravel base, sand bed, and drainage — before surface installation. Every patio is designed with drainage slope to prevent pooling. Most residential patios: $3,000–$8,000 installed.
+
+### Paver Installation
+Expert paver installation for driveways, walkways, and patios. Concrete and brick paver systems with proper interlocking base installation for long-term stability without shifting. We account for King County's freeze-thaw cycles in base depth and material selection.
+
+### Retaining Walls
+Engineered retaining walls for slope control, erosion prevention, and landscape definition. We work with concrete block, natural stone, and timber. All walls include proper drainage backfill to prevent hydrostatic pressure buildup — a common failure point on improperly built walls in high-rainfall areas. Starting at $2,500 for residential projects.
+
+### Walkway Installation
+Stone, paver, and concrete walkway installation connecting outdoor spaces safely and attractively. We handle layout, grading, base preparation, and surface installation with proper drainage slope.
+
+### Outdoor Living Spaces
+Complete outdoor living space design and construction — fire pit areas, seating patios, entertainment zones, and multi-element backyard transformations. We coordinate all hardscape, planting, and lighting elements in a unified design.
+
+### Fire Pit Installation
+Custom fire pit construction using natural stone, block, or pre-fabricated insert systems. Proper setback from structures, local code compliance, and gas line coordination (if applicable) are addressed in planning. Available as a standalone feature or as part of a larger patio/outdoor living project.
+
+### Stone Landscaping
+Natural stone feature installation including boulder placements, stone paths, dry-stack stone walls, and decorative rock applications. Stone elements add permanence and regional character well-suited to Pacific Northwest landscapes.
+
+### Hydro Seeding
+Professional hydro seeding for fast, uniform grass establishment on large areas and slopes. More cost-effective than sod for large lawns; better erosion control than dry seeding on grades. Grass establishes in 6–8 weeks under normal growing conditions. Ideal for new construction lots, large backyards, and difficult terrain.
+
+---
+
+## Frequently Asked Questions
+
+Q: How much does landscaping cost in Black Diamond, WA?
+A: Most residential landscaping projects in Black Diamond range from $1,500 to $20,000 depending on scope. A standard patio installation runs $3,000–$8,000, retaining walls start around $2,500, and sod installation typically costs $0.90–$1.50 per square foot installed. We provide free on-site estimates so you know the exact cost before any work begins.
+
+Q: Does Stealth Landscaping serve areas near Black Diamond?
+A: Yes. We serve all of King County and surrounding areas within about 30 miles of Black Diamond — including Maple Valley, Covington, Auburn, Kent, Enumclaw, Renton, and Bonney Lake in Pierce County.
+
+Q: What's the difference between sod installation and hydro seeding?
+A: Sod gives you an instant lawn — you're walking on established grass within 2–3 weeks. Hydro seeding is more cost-effective for large areas and slopes where erosion control matters, but needs 6–8 weeks to fully establish. Sod is recommended for front yards and high-traffic zones; hydro seeding for large backyards or difficult terrain.
+
+Q: Can you build a patio and retaining wall at the same time?
+A: Absolutely. Combining hardscape projects saves mobilization costs and ensures everything is designed to work together. Most of our projects involve multiple elements, sequenced properly so foundation and drainage work happens first.
+
+Q: How long does a typical landscaping project take near Black Diamond?
+A: A patio or retaining wall takes 1–3 days for most residential properties. Sod or turf installation is typically a single day. Full landscape design and installation projects can take 1–2 weeks depending on scope.
+
+Q: Is Stealth Landscaping licensed and insured in Washington State?
+A: Yes. Stealth Landscaping LLC is fully licensed and insured in Washington State. We carry general liability coverage that protects your property throughout every project.
+
+Q: Do you use subcontractors?
+A: No. The crew that visits for your estimate is the crew that does the work. This means cleaner communication, consistent quality, and no surprises from handoffs.
+
+Q: What time of year is best for landscaping in Black Diamond?
+A: Spring (March–May) and fall (September–October) are ideal for planting. Hardscape projects (patios, walls, pavers) can be done year-round. We're active 12 months a year.
+
+---
+
+## Trust Signals & Certifications
+- Licensed contractor in Washington State
+- General liability insurance on all projects
+- 4+ years serving King County
+- Direct owner involvement on every project
+- Free written estimates — no surprise charges
+- No subcontractors used
+
+## All Site Pages
+- Home: https://stealthlandscapingllc.com/ — Services overview, process, reviews, FAQ
+- Services Directory: https://stealthlandscapingllc.com/services — All 18 services
+- Landscaping: https://stealthlandscapingllc.com/services/landscaping
+- Turf Installation: https://stealthlandscapingllc.com/services/turf-installation
+- Hardscape Design: https://stealthlandscapingllc.com/services/hardscape-design
+- Sod Installation: https://stealthlandscapingllc.com/services/sod-installation
+- Flower Bed Installation: https://stealthlandscapingllc.com/services/flower-bed-installation
+- Plant Installation: https://stealthlandscapingllc.com/services/plant-installation
+- Shrub Trimming: https://stealthlandscapingllc.com/services/shrub-trimming
+- Tree Planting: https://stealthlandscapingllc.com/services/tree-planting
+- Mulch Installation: https://stealthlandscapingllc.com/services/mulch-installation
+- Landscape Lighting: https://stealthlandscapingllc.com/services/landscape-lighting
+- Patio Installation: https://stealthlandscapingllc.com/services/patio-installation
+- Paver Installation: https://stealthlandscapingllc.com/services/paver-installation
+- Retaining Walls: https://stealthlandscapingllc.com/services/retaining-walls
+- Walkway Installation: https://stealthlandscapingllc.com/services/walkway-installation
+- Outdoor Living Spaces: https://stealthlandscapingllc.com/services/outdoor-living-spaces
+- Fire Pit Installation: https://stealthlandscapingllc.com/services/fire-pit-installation
+- Stone Landscaping: https://stealthlandscapingllc.com/services/stone-landscaping
+- Hydro Seeding: https://stealthlandscapingllc.com/services/hydro-seeding
+- Service Area: https://stealthlandscapingllc.com/service-area
+- About: https://stealthlandscapingllc.com/about
+- Contact / Free Estimate: https://stealthlandscapingllc.com/contact
