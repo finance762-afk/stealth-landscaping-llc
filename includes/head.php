@@ -12,13 +12,15 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/config.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 
 // ─── Resolve per-page variables or build sensible defaults ────────────────
+// Title: siteName | primary keyword phrase | City, State
 $_title = isset($pageTitle) && $pageTitle
     ? $pageTitle
     : $siteName . ' | Landscaping ' . $address['city'] . ', ' . $address['state'];
 
+// Description: 150-160 chars, uses siteName + primaryKeyword context + city
 $_desc = isset($pageDescription) && $pageDescription
     ? $pageDescription
-    : $siteName . ' delivers expert landscaping, hardscape design, patio installation, and turf services in ' . $address['city'] . ', WA. ' . $yearsInBusiness . '+ years serving King County and surrounding areas.';
+    : $siteName . ' — landscaping, hardscape design & outdoor living in ' . $address['city'] . ', ' . $address['state'] . '. ' . $yearsInBusiness . '+ years serving King County. Free estimates.';
 
 $_canonical = isset($canonicalUrl) && $canonicalUrl ? $canonicalUrl : $siteUrl;
 $_ogImage   = isset($ogImage)      && $ogImage      ? $ogImage      : $logoUrl;
@@ -156,6 +158,11 @@ foreach ($_localBizSchema as $_k => $_v) {
 <?php if (!empty($useSwiper)): ?>
   <!-- Swiper CSS -->
   <link rel="stylesheet" href="<?php echo htmlspecialchars($cdnSwiperCss); ?>">
+<?php endif; ?>
+
+<?php if (!empty($heroImage)): ?>
+  <!-- Hero image preload — prevents LCP penalty -->
+  <link rel="preload" as="image" href="<?php echo htmlspecialchars($heroImage, ENT_QUOTES, 'UTF-8'); ?>" fetchpriority="high">
 <?php endif; ?>
 
   <!-- Main stylesheet -->
