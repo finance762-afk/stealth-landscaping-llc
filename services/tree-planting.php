@@ -63,6 +63,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <span class="hero-eyebrow">Black Diamond, WA</span>
     <h1>Tree Planting for Shade, Privacy, and Long-Term Value</h1>
     <p class="page-hero-sub">The right species in the right location, planted at the right depth — trees that establish quickly and add lasting value to Black Diamond properties.</p>
+    <div class="hero-cta-group">
+      <?php if (!empty($phone)): ?>
+      <a href="tel:<?php echo preg_replace('/[^0-9]/', '', $phone); ?>" class="btn btn-accent btn-lg">
+        <i data-lucide="phone" aria-hidden="true" width="18" height="18"></i>
+        <?php echo htmlspecialchars(formatPhone($phone)); ?>
+      </a>
+      <?php endif; ?>
+      <a href="/contact" class="btn btn-outline-white btn-lg">Get Free Estimate</a>
+    </div>
   </div>
 </section>
 

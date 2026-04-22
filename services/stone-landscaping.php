@@ -63,6 +63,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <span class="hero-eyebrow">Black Diamond, WA</span>
     <h1>Stone Landscaping That Works as Hard as It Looks</h1>
     <p class="page-hero-sub">River rock, boulders, decorative gravel, and dry creek beds designed for Western Washington's drainage reality — natural aesthetics and functional water management in one.</p>
+    <div class="hero-cta-group">
+      <?php if (!empty($phone)): ?>
+      <a href="tel:<?php echo preg_replace('/[^0-9]/', '', $phone); ?>" class="btn btn-accent btn-lg">
+        <i data-lucide="phone" aria-hidden="true" width="18" height="18"></i>
+        <?php echo htmlspecialchars(formatPhone($phone)); ?>
+      </a>
+      <?php endif; ?>
+      <a href="/contact" class="btn btn-outline-white btn-lg">Get Free Estimate</a>
+    </div>
   </div>
 </section>
 
@@ -144,7 +153,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="why-choose-item">
         <div class="why-icon"><i data-lucide="map-pin" aria-hidden="true" width="22" height="22"></i></div>
         <div>
-          <h4>Locally Sourced Pacific NW Stone</html>
+          <h4>Locally Sourced Pacific NW Stone</h4>
           <p>We source river rock, basalt, and decorative gravel from Pacific Northwest suppliers — material that looks native to Black Diamond's environment. Regional stone has the right color palette, texture, and scale for Western Washington landscapes.</p>
         </div>
       </div>

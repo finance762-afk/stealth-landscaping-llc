@@ -63,6 +63,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <span class="hero-eyebrow">Black Diamond, WA</span>
     <h1>Hydro Seeding — Fast, Even Lawn Establishment at a Fraction of Sod Cost</h1>
     <p class="page-hero-sub">Custom seed mixes applied in a protective slurry — uniform coverage on slopes, bare construction areas, and irregular shapes that sod can't handle economically.</p>
+    <div class="hero-cta-group">
+      <?php if (!empty($phone)): ?>
+      <a href="tel:<?php echo preg_replace('/[^0-9]/', '', $phone); ?>" class="btn btn-accent btn-lg">
+        <i data-lucide="phone" aria-hidden="true" width="18" height="18"></i>
+        <?php echo htmlspecialchars(formatPhone($phone)); ?>
+      </a>
+      <?php endif; ?>
+      <a href="/contact" class="btn btn-outline-white btn-lg">Get Free Estimate</a>
+    </div>
   </div>
 </section>
 
