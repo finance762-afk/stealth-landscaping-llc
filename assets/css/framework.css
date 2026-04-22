@@ -1024,13 +1024,14 @@ section { padding: var(--space-16) 0; }
   border-radius: var(--radius-lg);
   padding: var(--space-3) var(--space-5);
   transition: background var(--transition-fast);
+  color: var(--color-white);
 }
 .review-platform-badge:hover { background: rgba(255,255,255,0.1); }
 .platform-info { display: flex; flex-direction: column; gap: 2px; }
 .platform-name { font-family: var(--font-heading); font-weight: 700; font-size: var(--font-size-sm); color: var(--color-white); }
 .platform-stars { display: flex; gap: 2px; }
 .platform-stars i { color: var(--color-star); width: 13px; height: 13px; }
-.platform-count { font-size: var(--font-size-xs); color: rgba(255,255,255,0.55); }
+.platform-count { font-size: var(--font-size-xs); color: var(--color-white); }
 
 /* Swiper review nav */
 .swiper-reviews .swiper-pagination-bullet { background: rgba(255,255,255,0.35); opacity: 1; }
