@@ -127,31 +127,59 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <h2>Local information for each service area</h2>
     </div>
 
-    <div style="display:grid; gap:var(--space-xl);" data-animate="fade-up">
+    <div class="area-info-grid" data-animate="fade-up">
       <?php foreach ($serviceAreas as $area):
         $content = $areaContent[$area['slug']] ?? ['blurb' => '', 'note' => ''];
+        $topServices = array_slice($services, 0, 6);
+        $remaining   = count($services) - count($topServices);
       ?>
-      <div class="area-detail-card <?php echo $area['primary'] ? 'area-detail-card--primary' : ''; ?>" style="background:var(--color-white); border-radius:var(--radius-lg); padding:var(--space-xl); box-shadow:var(--elevation-1); border-left:4px solid <?php echo $area['primary'] ? 'var(--color-accent)' : 'var(--color-primary)'; ?>;">
-        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:var(--space-sm); margin-bottom:var(--space-md);">
-          <h3 style="margin:0;">
-            <i data-lucide="map-pin" aria-hidden="true" width="18" height="18" style="vertical-align:middle; margin-right:6px; color:var(--color-accent);"></i>
-            <?php echo htmlspecialchars($area['city']); ?>, <?php echo htmlspecialchars($area['state']); ?> <?php echo $area['primary'] ? '<span style="color:var(--color-accent);">★ Home Base</span>' : ''; ?>
-          </h3>
-          <span style="font-size:0.8rem; color:var(--color-text-light); white-space:nowrap;"><?php echo htmlspecialchars($content['note']); ?></span>
+      <?php if ($area['primary']): ?>
+      <div class="area-info-card area-info-card--primary">
+        <div class="area-info-left">
+          <div class="area-info-header">
+            <h3>
+              <i data-lucide="map-pin" aria-hidden="true" width="18" height="18" style="color:var(--color-accent);flex-shrink:0;"></i>
+              <?php echo htmlspecialchars($area['city']); ?>, <?php echo htmlspecialchars($area['state']); ?>
+            </h3>
+            <span class="area-distance-badge"><?php echo htmlspecialchars($content['note']); ?></span>
+          </div>
+          <p class="area-blurb"><?php echo htmlspecialchars($content['blurb']); ?></p>
         </div>
-        <p style="color:var(--color-text-light); margin-bottom:var(--space-md);"><?php echo htmlspecialchars($content['blurb']); ?></p>
-        <div style="display:flex; flex-wrap:wrap; gap:var(--space-sm);">
-          <?php $topServices = array_slice($services, 0, 6); foreach ($topServices as $svc): ?>
-          <a href="/services/<?php echo htmlspecialchars($svc['slug']); ?>"
-             style="font-size:0.8rem; padding:4px 10px; border-radius:20px; border:1px solid var(--color-border); color:var(--color-text-light);">
+        <div class="area-info-right">
+          <div class="area-service-tags">
+            <?php foreach ($topServices as $svc): ?>
+            <a href="/services/<?php echo htmlspecialchars($svc['slug']); ?>" class="area-tag">
+              <?php echo htmlspecialchars($svc['name']); ?>
+            </a>
+            <?php endforeach; ?>
+            <?php if ($remaining > 0): ?>
+            <a href="/services" class="area-tag area-tag--more">+ <?php echo $remaining; ?> more</a>
+            <?php endif; ?>
+          </div>
+        </div>
+      </div>
+      <?php else: ?>
+      <div class="area-info-card">
+        <div class="area-info-header">
+          <h3>
+            <i data-lucide="map-pin" aria-hidden="true" width="18" height="18" style="color:var(--color-accent);flex-shrink:0;"></i>
+            <?php echo htmlspecialchars($area['city']); ?>, <?php echo htmlspecialchars($area['state']); ?>
+          </h3>
+          <span class="area-distance-badge"><?php echo htmlspecialchars($content['note']); ?></span>
+        </div>
+        <p class="area-blurb"><?php echo htmlspecialchars($content['blurb']); ?></p>
+        <div class="area-service-tags">
+          <?php foreach ($topServices as $svc): ?>
+          <a href="/services/<?php echo htmlspecialchars($svc['slug']); ?>" class="area-tag">
             <?php echo htmlspecialchars($svc['name']); ?>
           </a>
           <?php endforeach; ?>
-          <a href="/services" style="font-size:0.8rem; padding:4px 10px; border-radius:20px; background:var(--color-primary); color:#fff;">
-            + 12 more services
-          </a>
+          <?php if ($remaining > 0): ?>
+          <a href="/services" class="area-tag area-tag--more">+ <?php echo $remaining; ?> more</a>
+          <?php endif; ?>
         </div>
       </div>
+      <?php endif; ?>
       <?php endforeach; ?>
     </div>
   </div>

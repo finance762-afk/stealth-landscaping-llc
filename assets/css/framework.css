@@ -1506,6 +1506,127 @@ section { padding: var(--space-16) 0; }
 .next-step-card h3 { font-size: var(--font-size-base); margin-bottom: var(--space-2); }
 .next-step-card p { font-size: var(--font-size-sm); color: var(--color-gray); margin: 0; }
 
+/* === Area Info Cards (Service Area page — "Local information" section) === */
+.area-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-6);
+  margin-top: var(--space-8);
+}
+.area-info-card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+  box-shadow: var(--shadow-card);
+  border-top: 3px solid var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+.area-info-card--primary {
+  border-top-color: var(--color-accent);
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-8);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-dark-alt) 100%);
+}
+.area-info-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+.area-info-header h3 {
+  font-size: var(--font-size-xl);
+  color: var(--color-dark);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+}
+.area-info-card--primary .area-info-header h3 { color: var(--color-white); }
+.area-distance-badge {
+  flex-shrink: 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray);
+  white-space: nowrap;
+  padding: var(--space-1) var(--space-3);
+  background: var(--color-light);
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-gray-light);
+  line-height: 1.6;
+}
+.area-info-card--primary .area-distance-badge {
+  background: rgba(255,255,255,0.15);
+  border-color: rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.85);
+}
+.area-blurb {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray);
+  line-height: 1.75;
+  margin: 0;
+  flex: 1;
+}
+.area-info-card--primary .area-blurb { color: rgba(255,255,255,0.8); }
+.area-service-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: auto;
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--color-gray-light);
+}
+.area-info-card--primary .area-service-tags { border-top-color: rgba(255,255,255,0.15); }
+.area-tag {
+  font-size: var(--font-size-xs);
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-gray-light);
+  color: var(--color-gray-dark);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  line-height: 1.6;
+}
+.area-tag:hover { border-color: var(--color-accent); color: var(--color-accent); }
+.area-info-card--primary .area-tag {
+  border-color: rgba(255,255,255,0.25);
+  color: rgba(255,255,255,0.8);
+}
+.area-info-card--primary .area-tag:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.5);
+  color: var(--color-white);
+}
+.area-tag--more {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-white) !important;
+}
+.area-info-card--primary .area-tag--more {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-white) !important;
+}
+.area-tag--more:hover {
+  background: var(--color-dark);
+  border-color: var(--color-dark);
+  color: var(--color-white) !important;
+}
+/* Primary card: left column = header+blurb, right = tags+meta */
+.area-info-card--primary .area-info-left {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+.area-info-card--primary .area-info-right {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  justify-content: center;
+}
+
 /* === Phase 4 Responsive === */
 @media (max-width: 1023px) {
   .service-detail-grid { grid-template-columns: 1fr; }
@@ -1515,6 +1636,7 @@ section { padding: var(--space-16) 0; }
   .values-grid { grid-template-columns: repeat(2, 1fr); }
   .milestones-strip { grid-template-columns: repeat(2, 1fr); }
   .next-steps-grid { grid-template-columns: 1fr; }
+  .area-info-card--primary { grid-template-columns: 1fr; }
 }
 @media (max-width: 767px) {
   .page-hero { min-height: 45vh; }
@@ -1526,4 +1648,6 @@ section { padding: var(--space-16) 0; }
   .contact-form-wrap { padding: var(--space-6); }
   .service-detail-image .img-badge { left: 0; }
   .milestones-strip { grid-template-columns: 1fr 1fr; }
+  .area-info-grid { grid-template-columns: 1fr; }
+  .area-info-card--primary { grid-column: auto; }
 }
